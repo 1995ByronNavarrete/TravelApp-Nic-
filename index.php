@@ -1,6 +1,6 @@
     <?php include "header.php"; ?>
 
-    <div class="container-fluid">
+    <div class="container-fluid m-0 p-0">
         <!---->
         <div class="p-0 m-0">
 
@@ -27,24 +27,24 @@
             </div>
         </div>
 
-        <div class="informacion row m-0 p-5 text-white container-fluid">
+        <div class="informacion row m-0 p-4 container-fluid text-white">
 
-            <div class="col-md-3 py-4">
+            <div class="col-sm-6 text-center col-md-3 py-4">
                 <span class="fas fa-hotel my-2"></span>
                 <h4>Hoteles</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, veritatis!</p>
             </div>
-            <div class="col-md-3 py-4">
+            <div class="col-sm-6 text-center col-md-3 py-4">
                 <span class="fas fa-hiking my-2"></span>
                 <h4>Tours</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, veritatis!</p>
             </div>
-            <div class="col-md-3 py-4">
+            <div class="col-sm-6 text-center col-md-3 py-4">
                 <span class="fas fa-utensils my-2"></span>
                 <h4>Restaurantes</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, veritatis!</p>
             </div>
-            <div class="col-md-3 py-4">
+            <div class="col-sm-6 text-center col-md-3 py-4">
                 <span class="fas fa-users my-2"></span>
                 <h4>Interpretes</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, veritatis!</p>
@@ -62,14 +62,14 @@
                 </div>
             </div>
 
-            <div class="col-md-3 ml-lg-5 hotTar">
+            <div class="d-none d-sm-block col-md-3 ml-lg-5 hotTar">
                 <img src="img/hotel.jpg" class="img-fluid">
                 <h3>titulo</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam est accusamus nesciunt blanditiis similique fugit.</p>
                 <a href="#" class="text-decoration-none btn btn-outline-primary">Read More</a>
             </div>
 
-            <div class="col-md-3 ml-lg-5 hotTar">
+            <div class="d-none d-sm-block col-md-3 ml-lg-5 hotTar">
                 <img src="img/hotel.jpg" class="img-fluid">
                 <h3>titulo</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam est accusamus nesciunt blanditiis similique fugit.</p>
@@ -77,8 +77,37 @@
             </div>
         </div>
 
+        <hr />
+
+        <div class="container-fluid m-0 row my-3 hot p-1">
+            <div class="contenedor-imagen col-md-5 m-0 p-0 order-2">
+                <div class="fon"></div>
+                <img src="img/hotel.jpg" class="">
+                <div class="slayers d-flex flex-column align-content-center justify-content-center p-3">
+                    <h2>TOURS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, commodi dicta unde reiciendis aperiam doloremque.</p>
+                    <a href="#" class="btn btn-primary text-decoration-none badge-pill">Read More <span class="fas fa-arrow-right"></span></a>
+                </div>
+            </div>
+
+            <div class="d-none d-sm-block col-md-3 ml-lg-5 hotTar order-0">
+                <img src="img/hotel.jpg" class="img-fluid">
+                <h3>titulo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam est accusamus nesciunt blanditiis similique fugit.</p>
+                <a href="#" class="text-decoration-none btn btn-outline-primary">Read More</a>
+            </div>
+
+            <div class=" d-none d-sm-block col-md-3 ml-lg-5 hotTar order-1">
+                <img src="img/hotel.jpg" class="img-fluid">
+                <h3>titulo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam est accusamus nesciunt blanditiis similique fugit.</p>
+                <a href="#" class="text-decoration-none btn btn-outline-primary">Read More</a>
+            </div>
+        </div>
+
+
         <!-- Restaurante -->
-        <div class="container caja mt-5">
+        <div class="container-fluid caja mt-5">
             <div class="imag"></div>
 
             <div class="hoteles row justify-content-around m-auto">
@@ -107,33 +136,50 @@
 
         <!-- fin Restaurante -->
 
-        <div class="container-fluid m-0 row my-3 hot p-1">
-            <div class="contenedor-imagen col-md-5 m-0 p-0 order-2">
-                <div class="fon"></div>
-                <img src="img/hotel.jpg" class="">
-                <div class="slayers d-flex flex-column align-content-center justify-content-center p-3">
-                    <h2>TOURS</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, commodi dicta unde reiciendis aperiam doloremque.</p>
-                    <a href="#" class="btn btn-primary text-decoration-none badge-pill">Read More <span class="fas fa-arrow-right"></span></a>
+        <!-- principales Ciudades -->
+        <div class="ciudades">
+            <h2 class="p-3">Principales Ciudades</h2>
+
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme p-0">
+                    <div class="item itemciu my-3">
+                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
+                        <div class="ciuCont">
+                            <h4 class="mt-2 p-1 mt-2">Somoto</h4>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, nobis nihil? Sunt sint exercitationem iusto.
+                            </p>
+                            <a href="#" class="text-decoration-none text-white btn btn-primary btn-block w-75 m-auto badge-pill">Ir</a>
+                        </div>
+                    </div>
+
+                    <div class="item itemciu my-3">
+                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
+                        <div class="ciuCont">
+                            <h4 class="mt-2 p-1 mt-2">Ocotal</h4>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, nobis nihil? Sunt sint exercitationem iusto.
+                            </p>
+                            <a href="#" class="text-decoration-none text-white btn btn-primary btn-block w-75 m-auto badge-pill">Ir</a>
+                        </div>
+                    </div>
+
+                    <div class="item itemciu my-3">
+                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
+                        <div class="ciuCont">
+                            <h4 class="mt-2 p-1 mt-2">Esteli</h4>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, nobis nihil? Sunt sint exercitationem iusto.
+                            </p>
+                            <a href="#" class="text-decoration-none text-white btn btn-primary btn-block w-75 m-auto badge-pill">Ir</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="col-md-3 ml-lg-5 hotTar order-0">
-                <img src="img/hotel.jpg" class="img-fluid">
-                <h3>titulo</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam est accusamus nesciunt blanditiis similique fugit.</p>
-                <a href="#" class="text-decoration-none btn btn-outline-primary">Read More</a>
-            </div>
-
-            <div class="col-md-3 ml-lg-5 hotTar order-1">
-                <img src="img/hotel.jpg" class="img-fluid">
-                <h3>titulo</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam est accusamus nesciunt blanditiis similique fugit.</p>
-                <a href="#" class="text-decoration-none btn btn-outline-primary">Read More</a>
-            </div>
         </div>
+        <!-- fin de principales Ciudades -->
 
-        <div class="container">
+        <div class="container-fluid">
 
             <h3 class="linea mt-5" id="color-n"><span>¿Porque reservar aquí?</span></h3>
             <div class="row">
@@ -158,55 +204,6 @@
             </div>
         </div>
 
-        <div class="container">
-            <h3>Principales Ciudades</h3>
-            <hr>
-            <div class="col-md-12">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
-                        <h4>Somoto</h4>
-                    </div>
-                    <div class="item">
-                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
-                        <h4>Ocotal</h4>
-                    </div>
-                    <div class="item">
-                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
-                        <h4>Esteli</h4>
-                    </div>
-                    <div class="item">
-                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
-                        <h4>Somoto</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container mt-3">
-            <h3 class="text-center">Sitios que te puedan interesar</h3>
-            <hr>
-            <div class="col-md-12">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
-                        <h4>Somoto</h4>
-                    </div>
-                    <div class="item">
-                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
-                        <h4>Ocotal</h4>
-                    </div>
-                    <div class="item">
-                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
-                        <h4>Esteli</h4>
-                    </div>
-                    <div class="item">
-                        <img src="img/somoto-canyon-national-monument.jpg" class="img-fluid" alt="4">
-                        <h4>Somoto</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <?php include "footer.php"; ?>

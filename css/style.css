@@ -45,12 +45,21 @@
         }
     }
 
-    .informacion{
-        background: #1b263b
+    .informacion{    
+        background: #1b263b;
+    }
+
+    .informacion span{
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 50%;
+        padding: 35px 0 0 0;
+        width: 140px;
+        height: 140px;
+        text-align: center;
     }
 
     .informacion .fa-hotel, .fa-hiking, .fa-utensils, .fa-users{
-        font-size: 40px;
+        font-size: 60px;
     }
 
 
@@ -58,6 +67,7 @@
         position: relative;
         background-size: 100% 100%;
         width: 100%;
+        height: 80vh;
         box-shadow: inset 3px 3px 10px #000;
         overflow: hidden;
         z-index: 100;
@@ -508,4 +518,40 @@
             width: 90%;
         }
     }
-/* Hoteles */
+/*Ciudades*/
+
+.ciudades{
+    background: #f3f3f3;
+    color: rgb(7, 0, 22);
+}
+
+.ciudades h3{
+    font-weight: bold;
+}
+
+.ciudades .caja1{
+    border: 5px solid #000;
+}
+
+.itemciu{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.itemciu .ciuCont{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.864);
+    color: #FFF;
+}
+
